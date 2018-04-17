@@ -226,7 +226,7 @@ External library support:
   --enable-libcdio         enable audio CD grabbing with libcdio [no]
   --enable-libdc1394       enable IIDC-1394 grabbing using libdc1394
                            and libraw1394 [no]
-  --enable-libfdk-aac      enable AAC de/encoding via libfdk-aac [no]
+  --enable-libfdk-aac      enable AAC de/encoding via libfdk-aac [yes]
   --enable-libflite        enable flite (voice synthesis) support via libflite [no]
   --enable-libfontconfig   enable libfontconfig, useful for drawtext filter [no]
   --enable-libfreetype     enable libfreetype, needed for drawtext filter [no]
