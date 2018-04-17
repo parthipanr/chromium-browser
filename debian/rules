@@ -38,8 +38,8 @@ GOOGLEAPI_CLIENTSECRET_ENDLESS := 1N8wLrO5WFJPapT0TlgoOh0r
 common_defines :=
 
 browser_defines :=
-ffmpeg_std_defines :=
-ffmpeg_extra_defines :=
+ffmpeg_std_defines := enable-libfdk-aac=true
+ffmpeg_extra_defines := enable-libfdk-aac=true
 
 # enable verbose build messages
 export DH_VERBOSE=1
